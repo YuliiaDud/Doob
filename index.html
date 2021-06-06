@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="./image/Logo.png" alt="logo">
+            </div>
+            <div class="menu mobile-menu">
+                <a href="#">Home.</a>
+                <a href="#">About us.</a>
+                <a href="#">Portfolio.</a>
+                <a href="#">Blog.</a>
+                <a href="#contact">Contact us.</a>
+            </div>
+            <div class="nav-mobile">
+<!--                <label>-->
+<!--                    <select>-->
+<!--                        <option value="Eng" class="link">Eng</option>-->
+<!--                        <option value="Ru" class="link">Ru</option>-->
+<!--                    </select>-->
+<!--                </label>-->
+                <div class="select">
+                    <input class="select__input" type="hidden" name="">
+                    <div class="select__head">Eng.</div>
+                    <ul class="select__list" style="display: none;">
+                        <li class="select__item">Ukr.</li>
+                        <li class="select__item">Ru.</li>
+                        <li class="select__item">Eng.</li>
+                    </ul>
+                </div>
+                <a href="#contact">
+                    <button class=" button nav-button">
+                        Contact Us
+                        <img src="image/Arrow2.png" alt="arrow">
+                    </button>
+                </a>
+                <div class="button_mobile"><span></span></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="main-page">
+            <div class="main-page-title">
+                <h1>The Spirit of Digital Agency.</h1>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                <div class="main-page-buttons">
+                    <button class="button red-button">More about us</button>
+                    <a href="#contact">Get in touch.</a>
+                </div>
+            </div>
+            <div class="main-page-img">
+                <img id="main-page-img" src="image/Vector%20Illustration.png" alt="image">
+            </div>
+        </section>
+        <section id="work-examples">
+            <h2>See some of our<br> Creative work.</h2>
+            <div class="items-container">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
+            <div class="position-center">
+                <a href="#">See more of these.</a>
+            </div>
+        </section>
+        <section id="get-in-touch">
+            <h4>Contact us</h4>
+            <h2 id="contact">Get in touch</h2>
+            <form>
+                <div class="input-container">
+                    <input id="js-email" type="email" name="email" placeholder="Your email" required>
+                    <input type="text" name="text" placeholder="Subject" required>
+                </div>
+                <label>
+                    <textarea placeholder="Message here..."></textarea>
+                </label>
+                <div class="position-center">
+                    <button id="js-form-button" class="button red-button">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <a href="#">Doob</a>
+            </div>
+            <div><h2>Creativity above</h2></div>
+            <div>
+                <a href="#">Home.</a>
+                <a href="#">About us.</a>
+                <a href="#">Portfolio.</a>
+                <a href="#">Blog.</a>
+                <a href="#">Contact us.</a>
+            </div>
+            <div>
+                <p>&copy 2019 - Doob,All Right Reserved</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+    </footer>
+    <button id="js-scroll-button" title="Go to top">Top</button>
+    <script src="https://kit.fontawesome.com/73d0fe6a0c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
