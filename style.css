@@ -34,7 +34,7 @@ section{
     padding: 0 370px;
 }
 #main-page{
-    padding: 20px 120px 200px 370px; // CHECK
+    padding: 20px 120px 200px 370px;
 }
 .main-page-title{
     flex-grow: 1;
@@ -68,7 +68,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 2%;
-    margin: 100px 0 50px 0; // CHECK
+    margin: 100px 0 50px 0;
 }
 .item{
     width: 32%;
@@ -409,9 +409,6 @@ h4{
     section{
         padding: 0 30px;
     }
-    /*#main-page{*/
-    /*    padding: 20px 20px 0 100px;*/
-    /*}*/
     h1{
         font-size: 45px;
     }
