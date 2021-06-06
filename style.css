@@ -280,7 +280,8 @@ h4{
     font-weight: 600;
     color: #314584;
     cursor: pointer;
-    background: url("./image/arrow.png") no-repeat center right;
+    display: flex;
+    align-items: center;
 }
 .select__list {
     display: none;
